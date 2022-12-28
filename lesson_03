@@ -1,0 +1,32 @@
+# операции с целыми числами
+a = 30
+b = 7
+result1 = a + b
+print(result1) # 37
+result2 = a - b
+print(result2) # 23
+result3 = a * b
+print(result3) # 210
+result4 = a / b
+print(result4) # 4.29
+result5 = a // b
+print(result5) # 4
+result6 = a % b
+print(result6) # 2
+# операции с числами с плавающей точкой
+a = 30.8
+b = 7.5
+result1 = a + b
+print(result1) # 38.3
+a = 30
+result1 = a + b
+print(result1) # 37.5
+# изменение типа данных
+print(int(result4)) # 4
+a = 30
+b = 5
+result4 = a / b # 6
+print(float(result4)) #6.0
+pi_digits = '3.141592653589793238462643383279502884197169399375'
+print(float(pi_digits)) # 3.141592653589793
+print(int(float(pi_digits))) # 3
